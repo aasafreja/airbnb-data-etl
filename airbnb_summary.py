@@ -37,12 +37,12 @@ for (neighbourhood_group, room_type), stats in summary.items():
     summary_for_df.append({
         'neighbourhood_group': neighbourhood_group,
         'room_type': room_type,
-        'average_price': np.mean(stats['prices']),
+        'average_price': round(np.mean(stats['prices']), 2),
         'median_price': np.median(stats['prices']),
         'count': stats['count'],
-        'average_minimum_nights': stats['total_minimum_nights'] / stats['count'],
-        'average_availability': average_availability,
-        'occupancy_rate': 100 * (365 - average_availability) / 365,
+        'average_minimum_nights': round(stats['total_minimum_nights'] / stats['count'],2),
+        'average_availability': round(average_availability,2),
+        'occupancy_rate': round(100 * (365 - average_availability) / 365,2),
         'total_reviews': stats['total_reviews'],
         'unique_hosts': len(stats['unique_hosts'])
     })
