@@ -4,8 +4,8 @@ This project provides a data processing pipeline for Airbnb listings. The pipeli
 
 ## Project Structure
 
-- airbnb_data.py: This script handles the entire ETL (Extract, Transform, Load) process for the Airbnb dataset.
-- airbnb_summary.py: This script generates summary statistics by region and room type.
+- **`airbnb_data.py`**: This script handles the entire ETL (Extract, Transform, Load) process for the Airbnb dataset.
+- **`airbnb_summary.py`**: This script generates summary statistics by region and room type.
 - Tableau public vizualisation
 
 ## Data Source
@@ -30,8 +30,8 @@ This project provides a set of functions to:
 - **Sorting and Saving**: Sort the data and save it to a new CSV file.
 
 ## Output files
-- **`airbnb_data_clean.py`**
-- **`airbnb_summary.py`**
+- **`airbnb_data_clean.csv`**
+- **`airbnb_summary.csv`**
 
 ## Visualisation 
 
