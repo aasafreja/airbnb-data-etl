@@ -30,8 +30,8 @@ This project provides a set of functions to:
 - **Sorting and Saving**: Sort the data and save it to a new CSV file.
 
 ## Output files
-- airbnb_data_clean.py
-- airbnb_summary.py
+- **`airbnb_data_clean.py`**
+- **`airbnb_summary.py`**
 
 ## Visualisation 
 
